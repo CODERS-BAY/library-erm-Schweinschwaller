@@ -4,11 +4,10 @@ The articles published in the journals as well as the books should be managed in
 Each borrowing is handled by one employee, and one employee is also responsible for returning the book copy.
 Customers can also reserve books, each reservation usually results in a loan. The books and magazines are stored on shelves. A journal is placed on a shelf, and each shelf is assigned a subject area for the storage of the books.
 
-Book(<ins>bookID:int</ins>, IBAN:varchar, subjectArea:varchar, authors:varchar, template:varchar)
-
-Journals(<ins>journalsID:int</ins>, IBAN:varchar, article:varchar)
-Article(<ins>id:int</ins>, subjectArea:varchar, authors:varchar, keywords:varchar, references:varchar)
-Shelves(<ins>shelvesID:int</ins>, subjectArea:varchar, books:varchar, journals:varchar)
-Custumer(<ins>custumerSVN:int</ins>, name:varchar, address:varchar, borrowing:varchar, reserve:varchar, loan:int)
-Employee(<ins>employeeSVN:int</ins>, name:varchar, borrowing:varchar)
-Publisher(<ins>publisherID:int</ins>, name:varchar, address:varchar)
+Book(<ins>bookID:int</ins>, IBAN:varchar, subjectArea:varchar, authors:varchar, template:varchar)<br>
+Journals(<ins>journalsID:int</ins>, IBAN:varchar, article:varchar)<br>
+Article(<ins>id:int</ins>, subjectArea:varchar, authors:varchar, keywords:varchar, references:varchar)<br>
+Shelves(<ins>shelvesID:int</ins>, subjectArea:varchar, books:varchar, journals:varchar)<br>
+Custumer(<ins>custumerSVN:int</ins>, name:varchar, address:varchar, borrowing:varchar, reserve:varchar, loan:int)<br>
+Employee(<ins>employeeSVN:int</ins>, name:varchar, borrowing:varchar)<br>
+Publisher(<ins>publisherID:int</ins>, name:varchar, address:varchar)<br>
